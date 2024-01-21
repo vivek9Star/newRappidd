@@ -23,9 +23,9 @@ jobs:
         with:
           java-version: '15.x'
 
-      - uses: flutter/setup-flutter@v2
+      - uses: flutter/actions/setup-flutter@v2  # Correcting the repository name
         with:
-          flutter-version: '3.7.1'
+          flutter-version: '2.7.0'  # Adjust the Flutter version accordingly
 
       - run: flutter pub get
       - run: flutter test
