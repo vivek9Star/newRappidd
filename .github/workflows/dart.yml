@@ -25,7 +25,7 @@ jobs:
 
       - uses: subosito/flutter-action@v2  # Use subosito/flutter-action
         with:
-          flutter-version: '2.7.0'  # Adjust the Flutter version accordingly
+          flutter-version: '3.7.1'  # Adjust the Flutter version accordingly
 
       - run: flutter pub get
       - run: flutter test
