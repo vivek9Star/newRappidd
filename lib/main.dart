@@ -20,20 +20,20 @@ void main() {
     // Color for Android
     // statusBarBrightness: Brightness.dark // Dark == white status bar -- for IOS.
   ));
-  runApp(Rappid());
+  runApp(const MyApp());
 }
 
 
 
 
-class Rappid extends StatefulWidget {
-  const Rappid({super.key});
+class MyApp extends StatefulWidget {
+  const MyApp({super.key});
 
   @override
-  State<Rappid> createState() => _RappidState();
+  State<MyApp> createState() => _MyAppState();
 }
 
-class _RappidState extends State<Rappid> {
+class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
