@@ -20,7 +20,7 @@ void main() {
     // Color for Android
     // statusBarBrightness: Brightness.dark // Dark == white status bar -- for IOS.
   ));
-  runApp(const MyApp());
+  runApp( MyApp());
 }
 
 
