@@ -8,6 +8,9 @@ void main() {
     // Build our app and trigger a frame.
     await tester.pumpWidget(const MyApp());
 
+    // Wait for all asynchronous operations to complete.
+    await tester.pumpAndSettle();
+
     // Verify that the initial screen is SplashScreen.
     expect(find.byType(SplashScreen), findsOneWidget);
   });
