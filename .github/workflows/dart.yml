@@ -14,7 +14,7 @@ on:
 jobs:
   build:
     name: Build & Release
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
@@ -36,29 +36,25 @@ jobs:
       - name: Build Android APK
         run: flutter build apk --release
 
-      - name: Build iOS IPA
-        run: |
-          flutter build ios --release --no-codesign 
-          cd build/ios/iphoneos
-          mkdir -p Payload
-          ln -s ../Runner.app Payload/
-          zip -r app.ipa Payload
-
-      - name: Push to Releases
-        uses: ncipollo/release-action@v1
-        with:
-          artifacts: |
-            build/app/outputs/apk/release*,
-            build/ios/iphoneos/app.ipa
-          tag: v1.0.${{ github.run_number }}
-          token: ${{ secrets.TOKEN }}
-
   build_with_signing:
     runs-on: macos-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v1
+        with:
+          java-version: '15.x'
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+
+      - name: Get Dependencies and Run Tests
+        run: |
+          flutter pub get
+          flutter test
 
       - name: Install the Apple certificate and provisioning profile
         env:
