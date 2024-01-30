@@ -69,7 +69,7 @@ final apiService = ApiService(dio);
     if (response != null) {
       res = response.body;
       print(response);
-      Get.offAll(() => CommonApiScreen(),arguments: res);
+      Get.to(() => CommonApiScreen(),arguments: res);
     }
   } else {
     CustomErrorDialog.showErrorDialog(context, 404);

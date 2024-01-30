@@ -1,0 +1,3986 @@
+{
+  "type": "scaffold",
+  "backgroundColor": "#00000000",
+  "body": {
+    "type": "container",
+    "height": 800,
+    "width": 500,
+    "decoration": {
+      "color": "backgroundCOlor2",
+      "opacity": 1,
+      "borderRadius": {
+        "topRight": 0,
+        "bottomRight": 0,
+        "topLeft": 0,
+        "bottomLeft": 0
+      }
+    },
+    "child": {
+      "type": "listview",
+      "scrollDirection": "vertical",
+      "children": [
+        {
+          "type": "stickyHeader",
+          "header": {
+            "type": "padding",
+            "top": 30,
+            "bottom": 0,
+            "left": 10,
+            "right": 10,
+            "child": {
+              "type": "container",
+              "height": 60,
+              "width": 500,
+              "decoration": {
+                "color": "#000000",
+                "opacity": 0,
+                "borderColor": "#00000000",
+                "borderRadius": {
+                  "topRight": 20,
+                  "bottomRight": 20,
+                  "topLeft": 20,
+                  "bottomLeft": 20
+                }
+              },
+              "child": {
+                "type": "row",
+                "mainalignment": "spaceBetween",
+                "crossalignment": "start",
+                "children": [
+                  {
+                    "type": "container",
+                    "height": 40,
+                    "width": 40,
+                    "decoration": {
+                      "color": "#FFFFFF",
+                      "opacity": 1,
+                      "borderColor": "#00000000",
+                      "borderRadius": {
+                        "topRight": 20,
+                        "bottomRight": 20,
+                        "topLeft": 20,
+                        "bottomLeft": 20
+                      }
+                    },
+                    "child": {
+                      "type": "imageIcon",
+                      "image": "assets/menu.png",
+                      "size": 16,
+                      "color": "#000000"
+                    }
+                  },
+                  {
+                    "type": "container",
+                    "height": 40,
+                    "width": 40,
+                    "child": {
+                      "type": "imageAsset",
+                      "imageUrl": "assets/nikelogo2.png",
+                      "width": 40,
+                      "height": 40,
+                      "fit": "contain"
+                    },
+                    "decoration": {
+                      "color": "#00000000",
+                      "borderColor": "00000000",
+                      "opacity": 0,
+                      "borderRadius": {
+                        "topRight": 5,
+                        "bottomRight": 5,
+                        "topLeft": 5,
+                        "bottomLeft": 5
+                      }
+                    }
+                  },
+                  {
+                    "type": "container",
+                    "height": 40,
+                    "width": 40,
+                    "decoration": {
+                      "color": "#FFFFFF",
+                      "opacity": 1,
+                      "borderColor": "#00000000",
+                      "borderRadius": {
+                        "topRight": 20,
+                        "bottomRight": 20,
+                        "topLeft": 20,
+                        "bottomLeft": 20
+                      }
+                    },
+                    "child": {
+                      "type": "imageIcon",
+                      "image": "assets/menu.png",
+                      "size": 16,
+                      "color": "#000000"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "content": {
+            "type": "column",
+            "mainalignment": "spaceBetween",
+            "crossalignment": "start",
+            "children": [
+              {
+                "type": "padding",
+                "top": 0,
+                "bottom": 20,
+                "left": 15,
+                "right": 15,
+                "child": {
+                  "type": "container",
+                  "height": 45,
+                  "width": 400,
+                  "decoration": {
+                    "color": "#FFFFFF",
+                    "borderColor": "#00000000",
+                    "opacity": 1,
+                    "borderRadius": {
+                      "topRight": 50,
+                      "bottomRight": 50,
+                      "topLeft": 50,
+                      "bottomLeft": 50
+                    }
+                  },
+                  "child": {
+                    "type": "textField",
+                    "label": "what are yours looking for?",
+                    "placeholder": "Enter your Email Address",
+                    "obscureText": false,
+                    "prefixIcon": "search",
+                    "suffixIcon": "setting2",
+                    "prefixColor": "#000000",
+                    "suffixColor": "#9CA0AF99",
+                    "fieldOpacity": 0.2,
+                    "radius": 50,
+                    "keyboardType": "email",
+                    "textInputAction": "done",
+                    "colorName": "#FFFFFF"
+                  }
+                }
+              },
+              {
+                "type": "container",
+                "height": 180,
+                "width": 500,
+                "decoration": {
+                  "color": "#00000000",
+                  "borderColor": "#00000000",
+                  "opacity": 0,
+                  "borderRadius": {
+                    "topRight": 5,
+                    "bottomRight": 5,
+                    "topLeft": 5,
+                    "bottomLeft": 5
+                  }
+                },
+                "child": {
+                  "type": "carousel_slider",
+                  "options": {
+                    "viewportFraction": 0.8,
+                    "initialPage": 0,
+                    "enableInfiniteScroll": true,
+                    "reverse": false,
+                    "autoPlay": true,
+                    "autoPlayInterval": 3000,
+                    "autoPlayAnimationDuration": 800,
+                    "autoPlayCurve": "fastOutSlowIn",
+                    "enlargeCenterPage": true,
+                    "scrollDirection": "horizontal"
+                  },
+                  "items": [
+                    {
+                      "type": "container",
+                      "height": 200,
+                      "width": 800,
+                      "decoration": {
+                        "color": "#782d26",
+                        "borderColor": "#00000000",
+                        "opacity": 0.4,
+                        "borderRadius": {
+                          "topRight": 5,
+                          "bottomRight": 5,
+                          "topLeft": 5,
+                          "bottomLeft": 5
+                        }
+                      },
+                      "child": {
+                        "type": "row",
+                        "mainalignment": "start",
+                        "crossalignment": "start",
+                        "children": [
+                          {
+                            "type": "padding",
+                            "top": 12,
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "child": {
+                              "type": "container",
+                              "height": 150,
+                              "width": 150,
+                              "decoration": {
+                                "color": "#00000000",
+                                "opacity": 0,
+                                "borderColor": "#00000000",
+                                "borderRadius": {
+                                  "topRight": 5,
+                                  "bottomRight": 5,
+                                  "topLeft": 5,
+                                  "bottomLeft": 5
+                                }
+                              },
+                              "child": {
+                                "type": "image",
+                                "imageUrl": "https://cdn.dummyjson.com/product-images/26/thumbnail.jpg",
+                                "width": 150,
+                                "height": 100,
+                                "fit": "contain"
+                              }
+                            }
+                          },
+                          {
+                            "type": "padding",
+                            "top": 0,
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "child": {
+                              "type": "column",
+                              "mainalignment": "start",
+                              "crossalignment": "start",
+                              "children": [
+                                {
+                                  "type": "container",
+                                  "height": 100,
+                                  "width": 150,
+                                  "decoration": {
+                                    "color": "#00000000",
+                                    "opacity": 0,
+                                    "borderColor": "#00000000",
+                                    "borderRadius": {
+                                      "topRight": 5,
+                                      "bottomRight": 5,
+                                      "topLeft": 5,
+                                      "bottomLeft": 5
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "expanded",
+                                    "child": {
+                                      "type": "text",
+                                      "label": "Plant Hanger For Home",
+                                      "textColor": "textColor4",
+                                      "fontSize": 14,
+                                      "fontWeight": "bold",
+                                      "overflow": "ellipsis"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "padding",
+                                  "top": 20,
+                                  "bottom": 0,
+                                  "left": 10,
+                                  "right": 0,
+                                  "child": {
+                                    "type": "text",
+                                    "label": "$41",
+                                    "textColor": "textColor4",
+                                    "fontSize": 20,
+                                    "fontWeight": "bold"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "container",
+                      "height": 200,
+                      "width": 800,
+                      "decoration": {
+                        "color": "#782d26",
+                        "borderColor": "#00000000",
+                        "opacity": 0.4,
+                        "borderRadius": {
+                          "topRight": 5,
+                          "bottomRight": 5,
+                          "topLeft": 5,
+                          "bottomLeft": 5
+                        }
+                      },
+                      "child": {
+                        "type": "row",
+                        "mainalignment": "start",
+                        "crossalignment": "start",
+                        "children": [
+                          {
+                            "type": "padding",
+                            "top": 12,
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "child": {
+                              "type": "container",
+                              "height": 150,
+                              "width": 150,
+                              "decoration": {
+                                "color": "#00000000",
+                                "opacity": 0,
+                                "borderColor": "#00000000",
+                                "borderRadius": {
+                                  "topRight": 5,
+                                  "bottomRight": 5,
+                                  "topLeft": 5,
+                                  "bottomLeft": 5
+                                }
+                              },
+                              "child": {
+                                "type": "image",
+                                "imageUrl": "https://cdn.dummyjson.com/product-images/27/thumbnail.webp",
+                                "width": 150,
+                                "height": 100,
+                                "fit": "contain"
+                              }
+                            }
+                          },
+                          {
+                            "type": "padding",
+                            "top": 0,
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "child": {
+                              "type": "column",
+                              "mainalignment": "start",
+                              "crossalignment": "start",
+                              "children": [
+                                {
+                                  "type": "container",
+                                  "height": 100,
+                                  "width": 150,
+                                  "decoration": {
+                                    "color": "#00000000",
+                                    "opacity": 0,
+                                    "borderColor": "#00000000",
+                                    "borderRadius": {
+                                      "topRight": 5,
+                                      "bottomRight": 5,
+                                      "topLeft": 5,
+                                      "bottomLeft": 5
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "expanded",
+                                    "child": {
+                                      "type": "text",
+                                      "label": "Flying Wooden Bird",
+                                      "textColor": "#FFFFFF",
+                                      "fontSize": 14,
+                                      "fontWeight": "bold",
+                                      "overflow": "ellipsis"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "padding",
+                                  "top": 20,
+                                  "bottom": 0,
+                                  "left": 10,
+                                  "right": 0,
+                                  "child": {
+                                    "type": "text",
+                                    "label": "$51",
+                                    "textColor": "#FFFFFF",
+                                    "fontSize": 20,
+                                    "fontWeight": "bold"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "container",
+                      "height": 200,
+                      "width": 800,
+                      "decoration": {
+                        "color": "#782d26",
+                        "borderColor": "#00000000",
+                        "opacity": 0.4,
+                        "borderRadius": {
+                          "topRight": 5,
+                          "bottomRight": 5,
+                          "topLeft": 5,
+                          "bottomLeft": 5
+                        }
+                      },
+                      "child": {
+                        "type": "row",
+                        "mainalignment": "start",
+                        "crossalignment": "start",
+                        "children": [
+                          {
+                            "type": "padding",
+                            "top": 12,
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "child": {
+                              "type": "container",
+                              "height": 150,
+                              "width": 150,
+                              "decoration": {
+                                "color": "#00000000",
+                                "opacity": 0,
+                                "borderColor": "#00000000",
+                                "borderRadius": {
+                                  "topRight": 5,
+                                  "bottomRight": 5,
+                                  "topLeft": 5,
+                                  "bottomLeft": 5
+                                }
+                              },
+                              "child": {
+                                "type": "image",
+                                "imageUrl": "https://cdn.dummyjson.com/product-images/28/thumbnail.jpg",
+                                "width": 150,
+                                "height": 100,
+                                "fit": "contain"
+                              }
+                            }
+                          },
+                          {
+                            "type": "padding",
+                            "top": 0,
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "child": {
+                              "type": "column",
+                              "mainalignment": "start",
+                              "crossalignment": "start",
+                              "children": [
+                                {
+                                  "type": "container",
+                                  "height": 100,
+                                  "width": 150,
+                                  "decoration": {
+                                    "color": "#00000000",
+                                    "opacity": 0,
+                                    "borderColor": "#00000000",
+                                    "borderRadius": {
+                                      "topRight": 5,
+                                      "bottomRight": 5,
+                                      "topLeft": 5,
+                                      "bottomLeft": 5
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "expanded",
+                                    "child": {
+                                      "type": "text",
+                                      "label": "3D Embellishment Art Lamp",
+                                      "textColor": "#FFFFFF",
+                                      "fontSize": 14,
+                                      "fontWeight": "bold",
+                                      "overflow": "ellipsis"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "padding",
+                                  "top": 20,
+                                  "bottom": 0,
+                                  "left": 10,
+                                  "right": 0,
+                                  "child": {
+                                    "type": "text",
+                                    "label": "$20",
+                                    "textColor": "#FFFFFF",
+                                    "fontSize": 20,
+                                    "fontWeight": "bold"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "container",
+                      "height": 200,
+                      "width": 800,
+                      "decoration": {
+                        "color": "#782d26",
+                        "borderColor": "#00000000",
+                        "opacity": 0.4,
+                        "borderRadius": {
+                          "topRight": 5,
+                          "bottomRight": 5,
+                          "topLeft": 5,
+                          "bottomLeft": 5
+                        }
+                      },
+                      "child": {
+                        "type": "row",
+                        "mainalignment": "start",
+                        "crossalignment": "start",
+                        "children": [
+                          {
+                            "type": "padding",
+                            "top": 12,
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "child": {
+                              "type": "container",
+                              "height": 150,
+                              "width": 150,
+                              "decoration": {
+                                "color": "#00000000",
+                                "opacity": 0,
+                                "borderColor": "#00000000",
+                                "borderRadius": {
+                                  "topRight": 5,
+                                  "bottomRight": 5,
+                                  "topLeft": 5,
+                                  "bottomLeft": 5
+                                }
+                              },
+                              "child": {
+                                "type": "image",
+                                "imageUrl": "https://cdn.dummyjson.com/product-images/29/thumbnail.webp",
+                                "width": 150,
+                                "height": 100,
+                                "fit": "contain"
+                              }
+                            }
+                          },
+                          {
+                            "type": "padding",
+                            "top": 0,
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "child": {
+                              "type": "column",
+                              "mainalignment": "start",
+                              "crossalignment": "start",
+                              "children": [
+                                {
+                                  "type": "container",
+                                  "height": 100,
+                                  "width": 150,
+                                  "decoration": {
+                                    "color": "#00000000",
+                                    "opacity": 0,
+                                    "borderColor": "#00000000",
+                                    "borderRadius": {
+                                      "topRight": 5,
+                                      "bottomRight": 5,
+                                      "topLeft": 5,
+                                      "bottomLeft": 5
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "expanded",
+                                    "child": {
+                                      "type": "text",
+                                      "label": "Handcraft Chinese style",
+                                      "textColor": "#FFFFFF",
+                                      "fontSize": 14,
+                                      "fontWeight": "bold",
+                                      "overflow": "ellipsis"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "padding",
+                                  "top": 20,
+                                  "bottom": 0,
+                                  "left": 10,
+                                  "right": 0,
+                                  "child": {
+                                    "type": "text",
+                                    "label": "$60",
+                                    "textColor": "#FFFFFF",
+                                    "fontSize": 20,
+                                    "fontWeight": "bold"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "container",
+                      "height": 200,
+                      "width": 800,
+                      "decoration": {
+                        "color": "#782d26",
+                        "borderColor": "#00000000",
+                        "opacity": 0.4,
+                        "borderRadius": {
+                          "topRight": 5,
+                          "bottomRight": 5,
+                          "topLeft": 5,
+                          "bottomLeft": 5
+                        }
+                      },
+                      "child": {
+                        "type": "row",
+                        "mainalignment": "start",
+                        "crossalignment": "start",
+                        "children": [
+                          {
+                            "type": "padding",
+                            "top": 12,
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "child": {
+                              "type": "container",
+                              "height": 150,
+                              "width": 150,
+                              "decoration": {
+                                "color": "#00000000",
+                                "opacity": 0,
+                                "borderColor": "#00000000",
+                                "borderRadius": {
+                                  "topRight": 5,
+                                  "bottomRight": 5,
+                                  "topLeft": 5,
+                                  "bottomLeft": 5
+                                }
+                              },
+                              "child": {
+                                "type": "image",
+                                "imageUrl": "https://cdn.dummyjson.com/product-images/30/thumbnail.jpg",
+                                "width": 150,
+                                "height": 100,
+                                "fit": "contain"
+                              }
+                            }
+                          },
+                          {
+                            "type": "padding",
+                            "top": 0,
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "child": {
+                              "type": "column",
+                              "mainalignment": "start",
+                              "crossalignment": "start",
+                              "children": [
+                                {
+                                  "type": "container",
+                                  "height": 100,
+                                  "width": 150,
+                                  "decoration": {
+                                    "color": "#00000000",
+                                    "opacity": 0,
+                                    "borderColor": "#00000000",
+                                    "borderRadius": {
+                                      "topRight": 5,
+                                      "bottomRight": 5,
+                                      "topLeft": 5,
+                                      "bottomLeft": 5
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "expanded",
+                                    "child": {
+                                      "type": "text",
+                                      "label": "Key Holder",
+                                      "textColor": "#FFFFFF",
+                                      "fontSize": 14,
+                                      "fontWeight": "bold",
+                                      "overflow": "ellipsis"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "padding",
+                                  "top": 20,
+                                  "bottom": 0,
+                                  "left": 10,
+                                  "right": 0,
+                                  "child": {
+                                    "type": "text",
+                                    "label": "$30",
+                                    "textColor": "#FFFFFF",
+                                    "fontSize": 20,
+                                    "fontWeight": "bold"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "padding",
+                "top": 0,
+                "bottom": 0,
+                "left": 15,
+                "right": 15,
+                "child": {
+                  "type": "row",
+                  "mainalignment": "spaceBetween",
+                  "crossalignment": "center",
+                  "children": [
+                    {
+                      "type": "padding",
+                      "top": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "right": 0,
+                      "child": {
+                        "type": "text",
+                        "label": "Furniture",
+                        "textColor": "textColor1",
+                        "fontSize": 16,
+                        "fontWeight": "bold"
+                      }
+                    },
+                    {
+                      "type": "padding",
+                      "top": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "right": 0,
+                      "child": {
+                        "type": "textButton",
+                        "child": {
+                          "type": "text",
+                          "label": "See More",
+                          "textColor": "textColor3",
+                          "fontSize": 12,
+                          "fontWeight": "bold"
+                        },
+                        "tag": "",
+                        "action": "https://rappid.ai/api-v2/public/dynamic-screens-readmore?category=furniture"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "padding",
+                "top": 0,
+                "bottom": 0,
+                "left": 15,
+                "right": 0,
+                "child": {
+                  "type": "container",
+                  "height": 205,
+                  "width": 500,
+                  "decoration": {
+                    "color": "#FFFFFF",
+                    "borderColor": "#00000000",
+                    "opacity": 0,
+                    "borderRadius": {
+                      "topRight": 5,
+                      "bottomRight": 5,
+                      "topLeft": 5,
+                      "bottomLeft": 5
+                    }
+                  },
+                  "child": {
+                    "type": "listview",
+                    "scrollDirection": "horizontal",
+                    "children": [
+                      {
+                        "type": "container",
+                        "height": 165,
+                        "width": 160,
+                        "decoration": {
+                          "color": "#FFFFFF",
+                          "borderColor": "#00000000",
+                          "opacity": 0,
+                          "borderRadius": {
+                            "topRight": 5,
+                            "bottomRight": 5,
+                            "topLeft": 5,
+                            "bottomLeft": 5
+                          }
+                        },
+                        "child": {
+                          "type": "card",
+                          "tag": "goToDetails3",
+                          "action": "https://rappid.ai/api-v2/public/dynamic-screens-details?id=31",
+                          "child": {
+                            "type": "column",
+                            "mainalignment": "spaceBetween",
+                            "crossalignment": "start",
+                            "children": [
+                              {
+                                "type": "padding",
+                                "top": 3,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 110,
+                                  "width": 130,
+                                  "decoration": {
+                                    "color": "#93963c",
+                                    "borderColor": "#00000000",
+                                    "opacity": 1,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "column",
+                                    "mainalignment": "spaceEvenly",
+                                    "crossalignment": "start",
+                                    "children": [
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 100,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "icon",
+                                          "iconData": "favorite_border",
+                                          "size": 20,
+                                          "color": "#9CA0AF"
+                                        }
+                                      },
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "container",
+                                          "height": 68,
+                                          "width": 120,
+                                          "decoration": {
+                                            "color": "#000000",
+                                            "borderColor": "#00000000",
+                                            "opacity": 0,
+                                            "borderRadius": {
+                                              "topRight": 3,
+                                              "bottomRight": 3,
+                                              "topLeft": 3,
+                                              "bottomLeft": 3
+                                            }
+                                          },
+                                          "child": {
+                                            "type": "image",
+                                            "imageUrl": "https://cdn.dummyjson.com/product-images/31/thumbnail.jpg",
+                                            "width": 0,
+                                            "height": 0,
+                                            "fit": "contain"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 38,
+                                  "width": 120,
+                                  "decoration": {
+                                    "color": "#000000",
+                                    "borderColor": "#00000000",
+                                    "opacity": 0,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "text",
+                                    "label": "Mornadi Velvet Bed",
+                                    "textColor": "textColor2",
+                                    "fontSize": 12,
+                                    "fontWeight": "bold",
+                                    "overflow": "ellipsis"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 10,
+                                "child": {
+                                  "type": "row",
+                                  "mainalignment": "spaceBetween",
+                                  "crossalignment": "start",
+                                  "children": [
+                                    {
+                                      "type": "padding",
+                                      "top": 0,
+                                      "bottom": 0,
+                                      "left": 0,
+                                      "right": 0,
+                                      "child": {
+                                        "type": "text",
+                                        "label": "$40",
+                                        "textColor": "textColor1",
+                                        "fontSize": 18,
+                                        "fontWeight": "bold",
+                                        "overflow": "ellipsis"
+                                      }
+                                    },
+                                    {
+                                      "type": "container",
+                                      "height": 40,
+                                      "width": 40,
+                                      "decoration": {
+                                        "color": "#00000000",
+                                        "opacity": 0,
+                                        "borderColor": "#00000000"
+                                      },
+                                      "child": {
+                                        "type": "row",
+                                        "mainalignment": "spaceBetween",
+                                        "crossalignment": "start",
+                                        "children": [
+                                          {
+                                            "type": "icon",
+                                            "iconData": "star_border",
+                                            "size": 20,
+                                            "color": "#9CA0AF"
+                                          },
+                                          {
+                                            "type": "padding",
+                                            "top": 3,
+                                            "bottom": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "child": {
+                                              "type": "text",
+                                              "label": "4.8",
+                                              "textColor": "textColor2",
+                                              "fontSize": 12,
+                                              "fontWeight": "normal",
+                                              "overflow": "ellipsis"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          "elevation": 1,
+                          "color": "#FFFFFF"
+                        }
+                      },
+                      {
+                        "type": "container",
+                        "height": 165,
+                        "width": 160,
+                        "decoration": {
+                          "color": "#FFFFFF",
+                          "borderColor": "#00000000",
+                          "opacity": 0,
+                          "borderRadius": {
+                            "topRight": 5,
+                            "bottomRight": 5,
+                            "topLeft": 5,
+                            "bottomLeft": 5
+                          }
+                        },
+                        "child": {
+                          "type": "card",
+                          "tag": "goToDetails3",
+                          "action": "https://rappid.ai/api-v2/public/dynamic-screens-details?id=32",
+                          "child": {
+                            "type": "column",
+                            "mainalignment": "spaceBetween",
+                            "crossalignment": "start",
+                            "children": [
+                              {
+                                "type": "padding",
+                                "top": 3,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 110,
+                                  "width": 130,
+                                  "decoration": {
+                                    "color": "#93963c",
+                                    "borderColor": "#00000000",
+                                    "opacity": 1,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "column",
+                                    "mainalignment": "spaceEvenly",
+                                    "crossalignment": "start",
+                                    "children": [
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 100,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "icon",
+                                          "iconData": "favorite_border",
+                                          "size": 20,
+                                          "color": "#9CA0AF"
+                                        }
+                                      },
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "container",
+                                          "height": 68,
+                                          "width": 120,
+                                          "decoration": {
+                                            "color": "#000000",
+                                            "borderColor": "#00000000",
+                                            "opacity": 0,
+                                            "borderRadius": {
+                                              "topRight": 3,
+                                              "bottomRight": 3,
+                                              "topLeft": 3,
+                                              "bottomLeft": 3
+                                            }
+                                          },
+                                          "child": {
+                                            "type": "image",
+                                            "imageUrl": "https://cdn.dummyjson.com/product-images/32/thumbnail.jpg",
+                                            "width": 0,
+                                            "height": 0,
+                                            "fit": "contain"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 38,
+                                  "width": 120,
+                                  "decoration": {
+                                    "color": "#000000",
+                                    "borderColor": "#00000000",
+                                    "opacity": 0,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "text",
+                                    "label": "Sofa for Coffe Cafe",
+                                    "textColor": "textColor2",
+                                    "fontSize": 12,
+                                    "fontWeight": "bold",
+                                    "overflow": "ellipsis"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 10,
+                                "child": {
+                                  "type": "row",
+                                  "mainalignment": "spaceBetween",
+                                  "crossalignment": "start",
+                                  "children": [
+                                    {
+                                      "type": "padding",
+                                      "top": 0,
+                                      "bottom": 0,
+                                      "left": 0,
+                                      "right": 0,
+                                      "child": {
+                                        "type": "text",
+                                        "label": "$50",
+                                        "textColor": "textColor1",
+                                        "fontSize": 18,
+                                        "fontWeight": "bold",
+                                        "overflow": "ellipsis"
+                                      }
+                                    },
+                                    {
+                                      "type": "container",
+                                      "height": 40,
+                                      "width": 40,
+                                      "decoration": {
+                                        "color": "#00000000",
+                                        "opacity": 0,
+                                        "borderColor": "#00000000"
+                                      },
+                                      "child": {
+                                        "type": "row",
+                                        "mainalignment": "spaceBetween",
+                                        "crossalignment": "start",
+                                        "children": [
+                                          {
+                                            "type": "icon",
+                                            "iconData": "star_border",
+                                            "size": 20,
+                                            "color": "#9CA0AF"
+                                          },
+                                          {
+                                            "type": "padding",
+                                            "top": 3,
+                                            "bottom": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "child": {
+                                              "type": "text",
+                                              "label": "4.8",
+                                              "textColor": "textColor2",
+                                              "fontSize": 12,
+                                              "fontWeight": "normal",
+                                              "overflow": "ellipsis"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          "elevation": 1,
+                          "color": "#FFFFFF"
+                        }
+                      },
+                      {
+                        "type": "container",
+                        "height": 165,
+                        "width": 160,
+                        "decoration": {
+                          "color": "#FFFFFF",
+                          "borderColor": "#00000000",
+                          "opacity": 0,
+                          "borderRadius": {
+                            "topRight": 5,
+                            "bottomRight": 5,
+                            "topLeft": 5,
+                            "bottomLeft": 5
+                          }
+                        },
+                        "child": {
+                          "type": "card",
+                          "tag": "goToDetails3",
+                          "action": "https://rappid.ai/api-v2/public/dynamic-screens-details?id=33",
+                          "child": {
+                            "type": "column",
+                            "mainalignment": "spaceBetween",
+                            "crossalignment": "start",
+                            "children": [
+                              {
+                                "type": "padding",
+                                "top": 3,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 110,
+                                  "width": 130,
+                                  "decoration": {
+                                    "color": "#93963c",
+                                    "borderColor": "#00000000",
+                                    "opacity": 1,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "column",
+                                    "mainalignment": "spaceEvenly",
+                                    "crossalignment": "start",
+                                    "children": [
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 100,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "icon",
+                                          "iconData": "favorite_border",
+                                          "size": 20,
+                                          "color": "#9CA0AF"
+                                        }
+                                      },
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "container",
+                                          "height": 68,
+                                          "width": 120,
+                                          "decoration": {
+                                            "color": "#000000",
+                                            "borderColor": "#00000000",
+                                            "opacity": 0,
+                                            "borderRadius": {
+                                              "topRight": 3,
+                                              "bottomRight": 3,
+                                              "topLeft": 3,
+                                              "bottomLeft": 3
+                                            }
+                                          },
+                                          "child": {
+                                            "type": "image",
+                                            "imageUrl": "https://cdn.dummyjson.com/product-images/33/thumbnail.jpg",
+                                            "width": 0,
+                                            "height": 0,
+                                            "fit": "contain"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 38,
+                                  "width": 120,
+                                  "decoration": {
+                                    "color": "#000000",
+                                    "borderColor": "#00000000",
+                                    "opacity": 0,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "text",
+                                    "label": "3 Tier Corner Shelves",
+                                    "textColor": "textColor2",
+                                    "fontSize": 12,
+                                    "fontWeight": "bold",
+                                    "overflow": "ellipsis"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 10,
+                                "child": {
+                                  "type": "row",
+                                  "mainalignment": "spaceBetween",
+                                  "crossalignment": "start",
+                                  "children": [
+                                    {
+                                      "type": "padding",
+                                      "top": 0,
+                                      "bottom": 0,
+                                      "left": 0,
+                                      "right": 0,
+                                      "child": {
+                                        "type": "text",
+                                        "label": "$700",
+                                        "textColor": "textColor1",
+                                        "fontSize": 18,
+                                        "fontWeight": "bold",
+                                        "overflow": "ellipsis"
+                                      }
+                                    },
+                                    {
+                                      "type": "container",
+                                      "height": 40,
+                                      "width": 40,
+                                      "decoration": {
+                                        "color": "#00000000",
+                                        "opacity": 0,
+                                        "borderColor": "#00000000"
+                                      },
+                                      "child": {
+                                        "type": "row",
+                                        "mainalignment": "spaceBetween",
+                                        "crossalignment": "start",
+                                        "children": [
+                                          {
+                                            "type": "icon",
+                                            "iconData": "star_border",
+                                            "size": 20,
+                                            "color": "#9CA0AF"
+                                          },
+                                          {
+                                            "type": "padding",
+                                            "top": 3,
+                                            "bottom": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "child": {
+                                              "type": "text",
+                                              "label": "4.8",
+                                              "textColor": "textColor2",
+                                              "fontSize": 12,
+                                              "fontWeight": "normal",
+                                              "overflow": "ellipsis"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          "elevation": 1,
+                          "color": "#FFFFFF"
+                        }
+                      },
+                      {
+                        "type": "container",
+                        "height": 165,
+                        "width": 160,
+                        "decoration": {
+                          "color": "#FFFFFF",
+                          "borderColor": "#00000000",
+                          "opacity": 0,
+                          "borderRadius": {
+                            "topRight": 5,
+                            "bottomRight": 5,
+                            "topLeft": 5,
+                            "bottomLeft": 5
+                          }
+                        },
+                        "child": {
+                          "type": "card",
+                          "tag": "goToDetails3",
+                          "action": "https://rappid.ai/api-v2/public/dynamic-screens-details?id=34",
+                          "child": {
+                            "type": "column",
+                            "mainalignment": "spaceBetween",
+                            "crossalignment": "start",
+                            "children": [
+                              {
+                                "type": "padding",
+                                "top": 3,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 110,
+                                  "width": 130,
+                                  "decoration": {
+                                    "color": "#93963c",
+                                    "borderColor": "#00000000",
+                                    "opacity": 1,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "column",
+                                    "mainalignment": "spaceEvenly",
+                                    "crossalignment": "start",
+                                    "children": [
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 100,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "icon",
+                                          "iconData": "favorite_border",
+                                          "size": 20,
+                                          "color": "#9CA0AF"
+                                        }
+                                      },
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "container",
+                                          "height": 68,
+                                          "width": 120,
+                                          "decoration": {
+                                            "color": "#000000",
+                                            "borderColor": "#00000000",
+                                            "opacity": 0,
+                                            "borderRadius": {
+                                              "topRight": 3,
+                                              "bottomRight": 3,
+                                              "topLeft": 3,
+                                              "bottomLeft": 3
+                                            }
+                                          },
+                                          "child": {
+                                            "type": "image",
+                                            "imageUrl": "https://cdn.dummyjson.com/product-images/34/thumbnail.jpg",
+                                            "width": 0,
+                                            "height": 0,
+                                            "fit": "contain"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 38,
+                                  "width": 120,
+                                  "decoration": {
+                                    "color": "#000000",
+                                    "borderColor": "#00000000",
+                                    "opacity": 0,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "text",
+                                    "label": "Plastic Table",
+                                    "textColor": "textColor2",
+                                    "fontSize": 12,
+                                    "fontWeight": "bold",
+                                    "overflow": "ellipsis"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 10,
+                                "child": {
+                                  "type": "row",
+                                  "mainalignment": "spaceBetween",
+                                  "crossalignment": "start",
+                                  "children": [
+                                    {
+                                      "type": "padding",
+                                      "top": 0,
+                                      "bottom": 0,
+                                      "left": 0,
+                                      "right": 0,
+                                      "child": {
+                                        "type": "text",
+                                        "label": "$50",
+                                        "textColor": "textColor1",
+                                        "fontSize": 18,
+                                        "fontWeight": "bold",
+                                        "overflow": "ellipsis"
+                                      }
+                                    },
+                                    {
+                                      "type": "container",
+                                      "height": 40,
+                                      "width": 40,
+                                      "decoration": {
+                                        "color": "#00000000",
+                                        "opacity": 0,
+                                        "borderColor": "#00000000"
+                                      },
+                                      "child": {
+                                        "type": "row",
+                                        "mainalignment": "spaceBetween",
+                                        "crossalignment": "start",
+                                        "children": [
+                                          {
+                                            "type": "icon",
+                                            "iconData": "star_border",
+                                            "size": 20,
+                                            "color": "#9CA0AF"
+                                          },
+                                          {
+                                            "type": "padding",
+                                            "top": 3,
+                                            "bottom": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "child": {
+                                              "type": "text",
+                                              "label": "4.8",
+                                              "textColor": "textColor2",
+                                              "fontSize": 12,
+                                              "fontWeight": "normal",
+                                              "overflow": "ellipsis"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          "elevation": 1,
+                          "color": "#FFFFFF"
+                        }
+                      },
+                      {
+                        "type": "container",
+                        "height": 165,
+                        "width": 160,
+                        "decoration": {
+                          "color": "#FFFFFF",
+                          "borderColor": "#00000000",
+                          "opacity": 0,
+                          "borderRadius": {
+                            "topRight": 5,
+                            "bottomRight": 5,
+                            "topLeft": 5,
+                            "bottomLeft": 5
+                          }
+                        },
+                        "child": {
+                          "type": "card",
+                          "tag": "goToDetails3",
+                          "action": "https://rappid.ai/api-v2/public/dynamic-screens-details?id=35",
+                          "child": {
+                            "type": "column",
+                            "mainalignment": "spaceBetween",
+                            "crossalignment": "start",
+                            "children": [
+                              {
+                                "type": "padding",
+                                "top": 3,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 110,
+                                  "width": 130,
+                                  "decoration": {
+                                    "color": "#93963c",
+                                    "borderColor": "#00000000",
+                                    "opacity": 1,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "column",
+                                    "mainalignment": "spaceEvenly",
+                                    "crossalignment": "start",
+                                    "children": [
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 100,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "icon",
+                                          "iconData": "favorite_border",
+                                          "size": 20,
+                                          "color": "#9CA0AF"
+                                        }
+                                      },
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "container",
+                                          "height": 68,
+                                          "width": 120,
+                                          "decoration": {
+                                            "color": "#000000",
+                                            "borderColor": "#00000000",
+                                            "opacity": 0,
+                                            "borderRadius": {
+                                              "topRight": 3,
+                                              "bottomRight": 3,
+                                              "topLeft": 3,
+                                              "bottomLeft": 3
+                                            }
+                                          },
+                                          "child": {
+                                            "type": "image",
+                                            "imageUrl": "https://cdn.dummyjson.com/product-images/35/thumbnail.jpg",
+                                            "width": 0,
+                                            "height": 0,
+                                            "fit": "contain"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 38,
+                                  "width": 120,
+                                  "decoration": {
+                                    "color": "#000000",
+                                    "borderColor": "#00000000",
+                                    "opacity": 0,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "text",
+                                    "label": "3 DOOR PORTABLE",
+                                    "textColor": "textColor2",
+                                    "fontSize": 12,
+                                    "fontWeight": "bold",
+                                    "overflow": "ellipsis"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 10,
+                                "child": {
+                                  "type": "row",
+                                  "mainalignment": "spaceBetween",
+                                  "crossalignment": "start",
+                                  "children": [
+                                    {
+                                      "type": "padding",
+                                      "top": 0,
+                                      "bottom": 0,
+                                      "left": 0,
+                                      "right": 0,
+                                      "child": {
+                                        "type": "text",
+                                        "label": "$41",
+                                        "textColor": "textColor1",
+                                        "fontSize": 18,
+                                        "fontWeight": "bold",
+                                        "overflow": "ellipsis"
+                                      }
+                                    },
+                                    {
+                                      "type": "container",
+                                      "height": 40,
+                                      "width": 40,
+                                      "decoration": {
+                                        "color": "#00000000",
+                                        "opacity": 0,
+                                        "borderColor": "#00000000"
+                                      },
+                                      "child": {
+                                        "type": "row",
+                                        "mainalignment": "spaceBetween",
+                                        "crossalignment": "start",
+                                        "children": [
+                                          {
+                                            "type": "icon",
+                                            "iconData": "star_border",
+                                            "size": 20,
+                                            "color": "#9CA0AF"
+                                          },
+                                          {
+                                            "type": "padding",
+                                            "top": 3,
+                                            "bottom": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "child": {
+                                              "type": "text",
+                                              "label": "4.8",
+                                              "textColor": "textColor2",
+                                              "fontSize": 12,
+                                              "fontWeight": "normal",
+                                              "overflow": "ellipsis"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          "elevation": 1,
+                          "color": "#FFFFFF"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "padding",
+                "top": 0,
+                "bottom": 0,
+                "left": 15,
+                "right": 15,
+                "child": {
+                  "type": "row",
+                  "mainalignment": "spaceBetween",
+                  "crossalignment": "center",
+                  "children": [
+                    {
+                      "type": "padding",
+                      "top": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "right": 0,
+                      "child": {
+                        "type": "text",
+                        "label": "Lighting",
+                        "textColor": "#050505",
+                        "fontSize": 16,
+                        "fontWeight": "bold"
+                      }
+                    },
+                    {
+                      "type": "padding",
+                      "top": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "right": 0,
+                      "child": {
+                        "type": "textButton",
+                        "child": {
+                          "type": "text",
+                          "label": "See More",
+                          "textColor": "#7E97EF",
+                          "fontSize": 12,
+                          "fontWeight": "bold"
+                        },
+                        "tag": "",
+                        "action": "https://rappid.ai/api-v2/public/dynamic-screens-readmore?category=lighting"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "padding",
+                "top": 0,
+                "bottom": 0,
+                "left": 15,
+                "right": 0,
+                "child": {
+                  "type": "container",
+                  "height": 205,
+                  "width": 500,
+                  "decoration": {
+                    "color": "#FFFFFF",
+                    "borderColor": "#00000000",
+                    "opacity": 0,
+                    "borderRadius": {
+                      "topRight": 5,
+                      "bottomRight": 5,
+                      "topLeft": 5,
+                      "bottomLeft": 5
+                    }
+                  },
+                  "child": {
+                    "type": "listview",
+                    "scrollDirection": "horizontal",
+                    "children": [
+                      {
+                        "type": "container",
+                        "height": 165,
+                        "width": 160,
+                        "decoration": {
+                          "color": "#FFFFFF",
+                          "borderColor": "#00000000",
+                          "opacity": 0,
+                          "borderRadius": {
+                            "topRight": 5,
+                            "bottomRight": 5,
+                            "topLeft": 5,
+                            "bottomLeft": 5
+                          }
+                        },
+                        "child": {
+                          "type": "card",
+                          "tag": "goToDetails3",
+                          "action": "https://rappid.ai/api-v2/public/dynamic-screens-details?id=96",
+                          "child": {
+                            "type": "column",
+                            "mainalignment": "spaceBetween",
+                            "crossalignment": "start",
+                            "children": [
+                              {
+                                "type": "padding",
+                                "top": 3,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 110,
+                                  "width": 130,
+                                  "decoration": {
+                                    "color": "#93963c",
+                                    "borderColor": "#00000000",
+                                    "opacity": 1,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "column",
+                                    "mainalignment": "spaceEvenly",
+                                    "crossalignment": "start",
+                                    "children": [
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 100,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "icon",
+                                          "iconData": "favorite_border",
+                                          "size": 20,
+                                          "color": "#9CA0AF"
+                                        }
+                                      },
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "container",
+                                          "height": 68,
+                                          "width": 120,
+                                          "decoration": {
+                                            "color": "#000000",
+                                            "borderColor": "#00000000",
+                                            "opacity": 0,
+                                            "borderRadius": {
+                                              "topRight": 3,
+                                              "bottomRight": 3,
+                                              "topLeft": 3,
+                                              "bottomLeft": 3
+                                            }
+                                          },
+                                          "child": {
+                                            "type": "image",
+                                            "imageUrl": "https://cdn.dummyjson.com/product-images/96/thumbnail.jpg",
+                                            "width": 0,
+                                            "height": 0,
+                                            "fit": "contain"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 38,
+                                  "width": 120,
+                                  "decoration": {
+                                    "color": "#000000",
+                                    "borderColor": "#00000000",
+                                    "opacity": 0,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "text",
+                                    "label": "lighting ceiling kitchen",
+                                    "textColor": "#9CA0AF",
+                                    "fontSize": 12,
+                                    "fontWeight": "bold",
+                                    "overflow": "ellipsis"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 10,
+                                "child": {
+                                  "type": "row",
+                                  "mainalignment": "spaceBetween",
+                                  "crossalignment": "start",
+                                  "children": [
+                                    {
+                                      "type": "padding",
+                                      "top": 0,
+                                      "bottom": 0,
+                                      "left": 0,
+                                      "right": 0,
+                                      "child": {
+                                        "type": "text",
+                                        "label": "$30",
+                                        "textColor": "#000000",
+                                        "fontSize": 18,
+                                        "fontWeight": "bold",
+                                        "overflow": "ellipsis"
+                                      }
+                                    },
+                                    {
+                                      "type": "container",
+                                      "height": 40,
+                                      "width": 40,
+                                      "decoration": {
+                                        "color": "#00000000",
+                                        "opacity": 0,
+                                        "borderColor": "#00000000"
+                                      },
+                                      "child": {
+                                        "type": "row",
+                                        "mainalignment": "spaceBetween",
+                                        "crossalignment": "start",
+                                        "children": [
+                                          {
+                                            "type": "icon",
+                                            "iconData": "star_border",
+                                            "size": 20,
+                                            "color": "#9CA0AF"
+                                          },
+                                          {
+                                            "type": "padding",
+                                            "top": 3,
+                                            "bottom": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "child": {
+                                              "type": "text",
+                                              "label": "4.8",
+                                              "textColor": "#9CA0AF",
+                                              "fontSize": 12,
+                                              "fontWeight": "normal",
+                                              "overflow": "ellipsis"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          "elevation": 1,
+                          "color": "#FFFFFF"
+                        }
+                      },
+                      {
+                        "type": "container",
+                        "height": 165,
+                        "width": 160,
+                        "decoration": {
+                          "color": "#FFFFFF",
+                          "borderColor": "#00000000",
+                          "opacity": 0,
+                          "borderRadius": {
+                            "topRight": 5,
+                            "bottomRight": 5,
+                            "topLeft": 5,
+                            "bottomLeft": 5
+                          }
+                        },
+                        "child": {
+                          "type": "card",
+                          "tag": "goToDetails3",
+                          "action": "https://rappid.ai/api-v2/public/dynamic-screens-details?id=97",
+                          "child": {
+                            "type": "column",
+                            "mainalignment": "spaceBetween",
+                            "crossalignment": "start",
+                            "children": [
+                              {
+                                "type": "padding",
+                                "top": 3,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 110,
+                                  "width": 130,
+                                  "decoration": {
+                                    "color": "#93963c",
+                                    "borderColor": "#00000000",
+                                    "opacity": 1,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "column",
+                                    "mainalignment": "spaceEvenly",
+                                    "crossalignment": "start",
+                                    "children": [
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 100,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "icon",
+                                          "iconData": "favorite_border",
+                                          "size": 20,
+                                          "color": "#9CA0AF"
+                                        }
+                                      },
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "container",
+                                          "height": 68,
+                                          "width": 120,
+                                          "decoration": {
+                                            "color": "#000000",
+                                            "borderColor": "#00000000",
+                                            "opacity": 0,
+                                            "borderRadius": {
+                                              "topRight": 3,
+                                              "bottomRight": 3,
+                                              "topLeft": 3,
+                                              "bottomLeft": 3
+                                            }
+                                          },
+                                          "child": {
+                                            "type": "image",
+                                            "imageUrl": "https://cdn.dummyjson.com/product-images/97/thumbnail.jpg",
+                                            "width": 0,
+                                            "height": 0,
+                                            "fit": "contain"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 38,
+                                  "width": 120,
+                                  "decoration": {
+                                    "color": "#000000",
+                                    "borderColor": "#00000000",
+                                    "opacity": 0,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "text",
+                                    "label": "Metal Ceramic Flower",
+                                    "textColor": "#9CA0AF",
+                                    "fontSize": 12,
+                                    "fontWeight": "bold",
+                                    "overflow": "ellipsis"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 10,
+                                "child": {
+                                  "type": "row",
+                                  "mainalignment": "spaceBetween",
+                                  "crossalignment": "start",
+                                  "children": [
+                                    {
+                                      "type": "padding",
+                                      "top": 0,
+                                      "bottom": 0,
+                                      "left": 0,
+                                      "right": 0,
+                                      "child": {
+                                        "type": "text",
+                                        "label": "$35",
+                                        "textColor": "#000000",
+                                        "fontSize": 18,
+                                        "fontWeight": "bold",
+                                        "overflow": "ellipsis"
+                                      }
+                                    },
+                                    {
+                                      "type": "container",
+                                      "height": 40,
+                                      "width": 40,
+                                      "decoration": {
+                                        "color": "#00000000",
+                                        "opacity": 0,
+                                        "borderColor": "#00000000"
+                                      },
+                                      "child": {
+                                        "type": "row",
+                                        "mainalignment": "spaceBetween",
+                                        "crossalignment": "start",
+                                        "children": [
+                                          {
+                                            "type": "icon",
+                                            "iconData": "star_border",
+                                            "size": 20,
+                                            "color": "#9CA0AF"
+                                          },
+                                          {
+                                            "type": "padding",
+                                            "top": 3,
+                                            "bottom": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "child": {
+                                              "type": "text",
+                                              "label": "4.8",
+                                              "textColor": "#9CA0AF",
+                                              "fontSize": 12,
+                                              "fontWeight": "normal",
+                                              "overflow": "ellipsis"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          "elevation": 1,
+                          "color": "#FFFFFF"
+                        }
+                      },
+                      {
+                        "type": "container",
+                        "height": 165,
+                        "width": 160,
+                        "decoration": {
+                          "color": "#FFFFFF",
+                          "borderColor": "#00000000",
+                          "opacity": 0,
+                          "borderRadius": {
+                            "topRight": 5,
+                            "bottomRight": 5,
+                            "topLeft": 5,
+                            "bottomLeft": 5
+                          }
+                        },
+                        "child": {
+                          "type": "card",
+                          "tag": "goToDetails3",
+                          "action": "https://rappid.ai/api-v2/public/dynamic-screens-details?id=98",
+                          "child": {
+                            "type": "column",
+                            "mainalignment": "spaceBetween",
+                            "crossalignment": "start",
+                            "children": [
+                              {
+                                "type": "padding",
+                                "top": 3,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 110,
+                                  "width": 130,
+                                  "decoration": {
+                                    "color": "#93963c",
+                                    "borderColor": "#00000000",
+                                    "opacity": 1,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "column",
+                                    "mainalignment": "spaceEvenly",
+                                    "crossalignment": "start",
+                                    "children": [
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 100,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "icon",
+                                          "iconData": "favorite_border",
+                                          "size": 20,
+                                          "color": "#9CA0AF"
+                                        }
+                                      },
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "container",
+                                          "height": 68,
+                                          "width": 120,
+                                          "decoration": {
+                                            "color": "#000000",
+                                            "borderColor": "#00000000",
+                                            "opacity": 0,
+                                            "borderRadius": {
+                                              "topRight": 3,
+                                              "bottomRight": 3,
+                                              "topLeft": 3,
+                                              "bottomLeft": 3
+                                            }
+                                          },
+                                          "child": {
+                                            "type": "image",
+                                            "imageUrl": "https://cdn.dummyjson.com/product-images/98/thumbnail.jpg",
+                                            "width": 0,
+                                            "height": 0,
+                                            "fit": "contain"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 38,
+                                  "width": 120,
+                                  "decoration": {
+                                    "color": "#000000",
+                                    "borderColor": "#00000000",
+                                    "opacity": 0,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "text",
+                                    "label": "3 lights lndenpant kitchen islang",
+                                    "textColor": "#9CA0AF",
+                                    "fontSize": 12,
+                                    "fontWeight": "bold",
+                                    "overflow": "ellipsis"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 10,
+                                "child": {
+                                  "type": "row",
+                                  "mainalignment": "spaceBetween",
+                                  "crossalignment": "start",
+                                  "children": [
+                                    {
+                                      "type": "padding",
+                                      "top": 0,
+                                      "bottom": 0,
+                                      "left": 0,
+                                      "right": 0,
+                                      "child": {
+                                        "type": "text",
+                                        "label": "$34",
+                                        "textColor": "#000000",
+                                        "fontSize": 18,
+                                        "fontWeight": "bold",
+                                        "overflow": "ellipsis"
+                                      }
+                                    },
+                                    {
+                                      "type": "container",
+                                      "height": 40,
+                                      "width": 40,
+                                      "decoration": {
+                                        "color": "#00000000",
+                                        "opacity": 0,
+                                        "borderColor": "#00000000"
+                                      },
+                                      "child": {
+                                        "type": "row",
+                                        "mainalignment": "spaceBetween",
+                                        "crossalignment": "start",
+                                        "children": [
+                                          {
+                                            "type": "icon",
+                                            "iconData": "star_border",
+                                            "size": 20,
+                                            "color": "#9CA0AF"
+                                          },
+                                          {
+                                            "type": "padding",
+                                            "top": 3,
+                                            "bottom": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "child": {
+                                              "type": "text",
+                                              "label": "4.8",
+                                              "textColor": "#9CA0AF",
+                                              "fontSize": 12,
+                                              "fontWeight": "normal",
+                                              "overflow": "ellipsis"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          "elevation": 1,
+                          "color": "#FFFFFF"
+                        }
+                      },
+                      {
+                        "type": "container",
+                        "height": 165,
+                        "width": 160,
+                        "decoration": {
+                          "color": "#FFFFFF",
+                          "borderColor": "#00000000",
+                          "opacity": 0,
+                          "borderRadius": {
+                            "topRight": 5,
+                            "bottomRight": 5,
+                            "topLeft": 5,
+                            "bottomLeft": 5
+                          }
+                        },
+                        "child": {
+                          "type": "card",
+                          "tag": "goToDetails3",
+                          "action": "https://rappid.ai/api-v2/public/dynamic-screens-details?id=99",
+                          "child": {
+                            "type": "column",
+                            "mainalignment": "spaceBetween",
+                            "crossalignment": "start",
+                            "children": [
+                              {
+                                "type": "padding",
+                                "top": 3,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 110,
+                                  "width": 130,
+                                  "decoration": {
+                                    "color": "#93963c",
+                                    "borderColor": "#00000000",
+                                    "opacity": 1,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "column",
+                                    "mainalignment": "spaceEvenly",
+                                    "crossalignment": "start",
+                                    "children": [
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 100,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "icon",
+                                          "iconData": "favorite_border",
+                                          "size": 20,
+                                          "color": "#9CA0AF"
+                                        }
+                                      },
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "container",
+                                          "height": 68,
+                                          "width": 120,
+                                          "decoration": {
+                                            "color": "#000000",
+                                            "borderColor": "#00000000",
+                                            "opacity": 0,
+                                            "borderRadius": {
+                                              "topRight": 3,
+                                              "bottomRight": 3,
+                                              "topLeft": 3,
+                                              "bottomLeft": 3
+                                            }
+                                          },
+                                          "child": {
+                                            "type": "image",
+                                            "imageUrl": "https://cdn.dummyjson.com/product-images/99/thumbnail.jpg",
+                                            "width": 0,
+                                            "height": 0,
+                                            "fit": "contain"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 38,
+                                  "width": 120,
+                                  "decoration": {
+                                    "color": "#000000",
+                                    "borderColor": "#00000000",
+                                    "opacity": 0,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "text",
+                                    "label": "American Vintage Wood Pendant Light",
+                                    "textColor": "#9CA0AF",
+                                    "fontSize": 12,
+                                    "fontWeight": "bold",
+                                    "overflow": "ellipsis"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 10,
+                                "child": {
+                                  "type": "row",
+                                  "mainalignment": "spaceBetween",
+                                  "crossalignment": "start",
+                                  "children": [
+                                    {
+                                      "type": "padding",
+                                      "top": 0,
+                                      "bottom": 0,
+                                      "left": 0,
+                                      "right": 0,
+                                      "child": {
+                                        "type": "text",
+                                        "label": "$46",
+                                        "textColor": "#000000",
+                                        "fontSize": 18,
+                                        "fontWeight": "bold",
+                                        "overflow": "ellipsis"
+                                      }
+                                    },
+                                    {
+                                      "type": "container",
+                                      "height": 40,
+                                      "width": 40,
+                                      "decoration": {
+                                        "color": "#00000000",
+                                        "opacity": 0,
+                                        "borderColor": "#00000000"
+                                      },
+                                      "child": {
+                                        "type": "row",
+                                        "mainalignment": "spaceBetween",
+                                        "crossalignment": "start",
+                                        "children": [
+                                          {
+                                            "type": "icon",
+                                            "iconData": "star_border",
+                                            "size": 20,
+                                            "color": "#9CA0AF"
+                                          },
+                                          {
+                                            "type": "padding",
+                                            "top": 3,
+                                            "bottom": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "child": {
+                                              "type": "text",
+                                              "label": "4.8",
+                                              "textColor": "#9CA0AF",
+                                              "fontSize": 12,
+                                              "fontWeight": "normal",
+                                              "overflow": "ellipsis"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          "elevation": 1,
+                          "color": "#FFFFFF"
+                        }
+                      },
+                      {
+                        "type": "container",
+                        "height": 165,
+                        "width": 160,
+                        "decoration": {
+                          "color": "#FFFFFF",
+                          "borderColor": "#00000000",
+                          "opacity": 0,
+                          "borderRadius": {
+                            "topRight": 5,
+                            "bottomRight": 5,
+                            "topLeft": 5,
+                            "bottomLeft": 5
+                          }
+                        },
+                        "child": {
+                          "type": "card",
+                          "tag": "goToDetails3",
+                          "action": "https://rappid.ai/api-v2/public/dynamic-screens-details?id=100",
+                          "child": {
+                            "type": "column",
+                            "mainalignment": "spaceBetween",
+                            "crossalignment": "start",
+                            "children": [
+                              {
+                                "type": "padding",
+                                "top": 3,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 110,
+                                  "width": 130,
+                                  "decoration": {
+                                    "color": "#93963c",
+                                    "borderColor": "#00000000",
+                                    "opacity": 1,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "column",
+                                    "mainalignment": "spaceEvenly",
+                                    "crossalignment": "start",
+                                    "children": [
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 100,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "icon",
+                                          "iconData": "favorite_border",
+                                          "size": 20,
+                                          "color": "#9CA0AF"
+                                        }
+                                      },
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "container",
+                                          "height": 68,
+                                          "width": 120,
+                                          "decoration": {
+                                            "color": "#000000",
+                                            "borderColor": "#00000000",
+                                            "opacity": 0,
+                                            "borderRadius": {
+                                              "topRight": 3,
+                                              "bottomRight": 3,
+                                              "topLeft": 3,
+                                              "bottomLeft": 3
+                                            }
+                                          },
+                                          "child": {
+                                            "type": "image",
+                                            "imageUrl": "https://cdn.dummyjson.com/product-images/100/thumbnail.jpg",
+                                            "width": 0,
+                                            "height": 0,
+                                            "fit": "contain"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 38,
+                                  "width": 120,
+                                  "decoration": {
+                                    "color": "#000000",
+                                    "borderColor": "#00000000",
+                                    "opacity": 0,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "text",
+                                    "label": "Crystal chandelier maria theresa for 12 light",
+                                    "textColor": "#9CA0AF",
+                                    "fontSize": 12,
+                                    "fontWeight": "bold",
+                                    "overflow": "ellipsis"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 10,
+                                "child": {
+                                  "type": "row",
+                                  "mainalignment": "spaceBetween",
+                                  "crossalignment": "start",
+                                  "children": [
+                                    {
+                                      "type": "padding",
+                                      "top": 0,
+                                      "bottom": 0,
+                                      "left": 0,
+                                      "right": 0,
+                                      "child": {
+                                        "type": "text",
+                                        "label": "$47",
+                                        "textColor": "#000000",
+                                        "fontSize": 18,
+                                        "fontWeight": "bold",
+                                        "overflow": "ellipsis"
+                                      }
+                                    },
+                                    {
+                                      "type": "container",
+                                      "height": 40,
+                                      "width": 40,
+                                      "decoration": {
+                                        "color": "#00000000",
+                                        "opacity": 0,
+                                        "borderColor": "#00000000"
+                                      },
+                                      "child": {
+                                        "type": "row",
+                                        "mainalignment": "spaceBetween",
+                                        "crossalignment": "start",
+                                        "children": [
+                                          {
+                                            "type": "icon",
+                                            "iconData": "star_border",
+                                            "size": 20,
+                                            "color": "#9CA0AF"
+                                          },
+                                          {
+                                            "type": "padding",
+                                            "top": 3,
+                                            "bottom": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "child": {
+                                              "type": "text",
+                                              "label": "4.8",
+                                              "textColor": "#9CA0AF",
+                                              "fontSize": 12,
+                                              "fontWeight": "normal",
+                                              "overflow": "ellipsis"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          "elevation": 1,
+                          "color": "#FFFFFF"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "padding",
+                "top": 0,
+                "bottom": 0,
+                "left": 15,
+                "right": 15,
+                "child": {
+                  "type": "row",
+                  "mainalignment": "spaceBetween",
+                  "crossalignment": "center",
+                  "children": [
+                    {
+                      "type": "padding",
+                      "top": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "right": 0,
+                      "child": {
+                        "type": "text",
+                        "label": "Furniture",
+                        "textColor": "#050505",
+                        "fontSize": 16,
+                        "fontWeight": "bold"
+                      }
+                    },
+                    {
+                      "type": "padding",
+                      "top": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "right": 0,
+                      "child": {
+                        "type": "textButton",
+                        "child": {
+                          "type": "text",
+                          "label": "See More",
+                          "textColor": "#7E97EF",
+                          "fontSize": 12,
+                          "fontWeight": "bold"
+                        },
+                        "tag": "",
+                        "action": "https://rappid.ai/api-v2/public/dynamic-screens-readmore?category=furniture"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "padding",
+                "top": 0,
+                "bottom": 0,
+                "left": 15,
+                "right": 0,
+                "child": {
+                  "type": "container",
+                  "height": 205,
+                  "width": 500,
+                  "decoration": {
+                    "color": "#FFFFFF",
+                    "borderColor": "#00000000",
+                    "opacity": 0,
+                    "borderRadius": {
+                      "topRight": 5,
+                      "bottomRight": 5,
+                      "topLeft": 5,
+                      "bottomLeft": 5
+                    }
+                  },
+                  "child": {
+                    "type": "listview",
+                    "scrollDirection": "horizontal",
+                    "children": [
+                      {
+                        "type": "container",
+                        "height": 165,
+                        "width": 160,
+                        "decoration": {
+                          "color": "#FFFFFF",
+                          "borderColor": "#00000000",
+                          "opacity": 0,
+                          "borderRadius": {
+                            "topRight": 5,
+                            "bottomRight": 5,
+                            "topLeft": 5,
+                            "bottomLeft": 5
+                          }
+                        },
+                        "child": {
+                          "type": "card",
+                          "tag": "goToDetails3",
+                          "action": "https://rappid.ai/api-v2/public/dynamic-screens-details?id=31",
+                          "child": {
+                            "type": "column",
+                            "mainalignment": "spaceBetween",
+                            "crossalignment": "start",
+                            "children": [
+                              {
+                                "type": "padding",
+                                "top": 3,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 110,
+                                  "width": 130,
+                                  "decoration": {
+                                    "color": "#93963c",
+                                    "borderColor": "#00000000",
+                                    "opacity": 1,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "column",
+                                    "mainalignment": "spaceEvenly",
+                                    "crossalignment": "start",
+                                    "children": [
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 100,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "icon",
+                                          "iconData": "favorite_border",
+                                          "size": 20,
+                                          "color": "#9CA0AF"
+                                        }
+                                      },
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "container",
+                                          "height": 68,
+                                          "width": 120,
+                                          "decoration": {
+                                            "color": "#000000",
+                                            "borderColor": "#00000000",
+                                            "opacity": 0,
+                                            "borderRadius": {
+                                              "topRight": 3,
+                                              "bottomRight": 3,
+                                              "topLeft": 3,
+                                              "bottomLeft": 3
+                                            }
+                                          },
+                                          "child": {
+                                            "type": "image",
+                                            "imageUrl": "https://cdn.dummyjson.com/product-images/31/thumbnail.jpg",
+                                            "width": 0,
+                                            "height": 0,
+                                            "fit": "contain"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 38,
+                                  "width": 120,
+                                  "decoration": {
+                                    "color": "#000000",
+                                    "borderColor": "#00000000",
+                                    "opacity": 0,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "text",
+                                    "label": "Mornadi Velvet Bed",
+                                    "textColor": "#9CA0AF",
+                                    "fontSize": 12,
+                                    "fontWeight": "bold",
+                                    "overflow": "ellipsis"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 10,
+                                "child": {
+                                  "type": "row",
+                                  "mainalignment": "spaceBetween",
+                                  "crossalignment": "start",
+                                  "children": [
+                                    {
+                                      "type": "padding",
+                                      "top": 0,
+                                      "bottom": 0,
+                                      "left": 0,
+                                      "right": 0,
+                                      "child": {
+                                        "type": "text",
+                                        "label": "$40",
+                                        "textColor": "#000000",
+                                        "fontSize": 18,
+                                        "fontWeight": "bold",
+                                        "overflow": "ellipsis"
+                                      }
+                                    },
+                                    {
+                                      "type": "container",
+                                      "height": 40,
+                                      "width": 40,
+                                      "decoration": {
+                                        "color": "#00000000",
+                                        "opacity": 0,
+                                        "borderColor": "#00000000"
+                                      },
+                                      "child": {
+                                        "type": "row",
+                                        "mainalignment": "spaceBetween",
+                                        "crossalignment": "start",
+                                        "children": [
+                                          {
+                                            "type": "icon",
+                                            "iconData": "star_border",
+                                            "size": 20,
+                                            "color": "#9CA0AF"
+                                          },
+                                          {
+                                            "type": "padding",
+                                            "top": 3,
+                                            "bottom": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "child": {
+                                              "type": "text",
+                                              "label": "4.8",
+                                              "textColor": "#9CA0AF",
+                                              "fontSize": 12,
+                                              "fontWeight": "normal",
+                                              "overflow": "ellipsis"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          "elevation": 1,
+                          "color": "#FFFFFF"
+                        }
+                      },
+                      {
+                        "type": "container",
+                        "height": 165,
+                        "width": 160,
+                        "decoration": {
+                          "color": "#FFFFFF",
+                          "borderColor": "#00000000",
+                          "opacity": 0,
+                          "borderRadius": {
+                            "topRight": 5,
+                            "bottomRight": 5,
+                            "topLeft": 5,
+                            "bottomLeft": 5
+                          }
+                        },
+                        "child": {
+                          "type": "card",
+                          "tag": "goToDetails3",
+                          "action": "https://rappid.ai/api-v2/public/dynamic-screens-details?id=32",
+                          "child": {
+                            "type": "column",
+                            "mainalignment": "spaceBetween",
+                            "crossalignment": "start",
+                            "children": [
+                              {
+                                "type": "padding",
+                                "top": 3,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 110,
+                                  "width": 130,
+                                  "decoration": {
+                                    "color": "#93963c",
+                                    "borderColor": "#00000000",
+                                    "opacity": 1,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "column",
+                                    "mainalignment": "spaceEvenly",
+                                    "crossalignment": "start",
+                                    "children": [
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 100,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "icon",
+                                          "iconData": "favorite_border",
+                                          "size": 20,
+                                          "color": "#9CA0AF"
+                                        }
+                                      },
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "container",
+                                          "height": 68,
+                                          "width": 120,
+                                          "decoration": {
+                                            "color": "#000000",
+                                            "borderColor": "#00000000",
+                                            "opacity": 0,
+                                            "borderRadius": {
+                                              "topRight": 3,
+                                              "bottomRight": 3,
+                                              "topLeft": 3,
+                                              "bottomLeft": 3
+                                            }
+                                          },
+                                          "child": {
+                                            "type": "image",
+                                            "imageUrl": "https://cdn.dummyjson.com/product-images/32/thumbnail.jpg",
+                                            "width": 0,
+                                            "height": 0,
+                                            "fit": "contain"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 38,
+                                  "width": 120,
+                                  "decoration": {
+                                    "color": "#000000",
+                                    "borderColor": "#00000000",
+                                    "opacity": 0,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "text",
+                                    "label": "Sofa for Coffe Cafe",
+                                    "textColor": "#9CA0AF",
+                                    "fontSize": 12,
+                                    "fontWeight": "bold",
+                                    "overflow": "ellipsis"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 10,
+                                "child": {
+                                  "type": "row",
+                                  "mainalignment": "spaceBetween",
+                                  "crossalignment": "start",
+                                  "children": [
+                                    {
+                                      "type": "padding",
+                                      "top": 0,
+                                      "bottom": 0,
+                                      "left": 0,
+                                      "right": 0,
+                                      "child": {
+                                        "type": "text",
+                                        "label": "$50",
+                                        "textColor": "#000000",
+                                        "fontSize": 18,
+                                        "fontWeight": "bold",
+                                        "overflow": "ellipsis"
+                                      }
+                                    },
+                                    {
+                                      "type": "container",
+                                      "height": 40,
+                                      "width": 40,
+                                      "decoration": {
+                                        "color": "#00000000",
+                                        "opacity": 0,
+                                        "borderColor": "#00000000"
+                                      },
+                                      "child": {
+                                        "type": "row",
+                                        "mainalignment": "spaceBetween",
+                                        "crossalignment": "start",
+                                        "children": [
+                                          {
+                                            "type": "icon",
+                                            "iconData": "star_border",
+                                            "size": 20,
+                                            "color": "#9CA0AF"
+                                          },
+                                          {
+                                            "type": "padding",
+                                            "top": 3,
+                                            "bottom": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "child": {
+                                              "type": "text",
+                                              "label": "4.8",
+                                              "textColor": "#9CA0AF",
+                                              "fontSize": 12,
+                                              "fontWeight": "normal",
+                                              "overflow": "ellipsis"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          "elevation": 1,
+                          "color": "#FFFFFF"
+                        }
+                      },
+                      {
+                        "type": "container",
+                        "height": 165,
+                        "width": 160,
+                        "decoration": {
+                          "color": "#FFFFFF",
+                          "borderColor": "#00000000",
+                          "opacity": 0,
+                          "borderRadius": {
+                            "topRight": 5,
+                            "bottomRight": 5,
+                            "topLeft": 5,
+                            "bottomLeft": 5
+                          }
+                        },
+                        "child": {
+                          "type": "card",
+                          "tag": "goToDetails3",
+                          "action": "https://rappid.ai/api-v2/public/dynamic-screens-details?id=33",
+                          "child": {
+                            "type": "column",
+                            "mainalignment": "spaceBetween",
+                            "crossalignment": "start",
+                            "children": [
+                              {
+                                "type": "padding",
+                                "top": 3,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 110,
+                                  "width": 130,
+                                  "decoration": {
+                                    "color": "#93963c",
+                                    "borderColor": "#00000000",
+                                    "opacity": 1,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "column",
+                                    "mainalignment": "spaceEvenly",
+                                    "crossalignment": "start",
+                                    "children": [
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 100,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "icon",
+                                          "iconData": "favorite_border",
+                                          "size": 20,
+                                          "color": "#9CA0AF"
+                                        }
+                                      },
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "container",
+                                          "height": 68,
+                                          "width": 120,
+                                          "decoration": {
+                                            "color": "#000000",
+                                            "borderColor": "#00000000",
+                                            "opacity": 0,
+                                            "borderRadius": {
+                                              "topRight": 3,
+                                              "bottomRight": 3,
+                                              "topLeft": 3,
+                                              "bottomLeft": 3
+                                            }
+                                          },
+                                          "child": {
+                                            "type": "image",
+                                            "imageUrl": "https://cdn.dummyjson.com/product-images/33/thumbnail.jpg",
+                                            "width": 0,
+                                            "height": 0,
+                                            "fit": "contain"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 38,
+                                  "width": 120,
+                                  "decoration": {
+                                    "color": "#000000",
+                                    "borderColor": "#00000000",
+                                    "opacity": 0,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "text",
+                                    "label": "3 Tier Corner Shelves",
+                                    "textColor": "#9CA0AF",
+                                    "fontSize": 12,
+                                    "fontWeight": "bold",
+                                    "overflow": "ellipsis"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 10,
+                                "child": {
+                                  "type": "row",
+                                  "mainalignment": "spaceBetween",
+                                  "crossalignment": "start",
+                                  "children": [
+                                    {
+                                      "type": "padding",
+                                      "top": 0,
+                                      "bottom": 0,
+                                      "left": 0,
+                                      "right": 0,
+                                      "child": {
+                                        "type": "text",
+                                        "label": "$700",
+                                        "textColor": "#000000",
+                                        "fontSize": 18,
+                                        "fontWeight": "bold",
+                                        "overflow": "ellipsis"
+                                      }
+                                    },
+                                    {
+                                      "type": "container",
+                                      "height": 40,
+                                      "width": 40,
+                                      "decoration": {
+                                        "color": "#00000000",
+                                        "opacity": 0,
+                                        "borderColor": "#00000000"
+                                      },
+                                      "child": {
+                                        "type": "row",
+                                        "mainalignment": "spaceBetween",
+                                        "crossalignment": "start",
+                                        "children": [
+                                          {
+                                            "type": "icon",
+                                            "iconData": "star_border",
+                                            "size": 20,
+                                            "color": "#9CA0AF"
+                                          },
+                                          {
+                                            "type": "padding",
+                                            "top": 3,
+                                            "bottom": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "child": {
+                                              "type": "text",
+                                              "label": "4.8",
+                                              "textColor": "#9CA0AF",
+                                              "fontSize": 12,
+                                              "fontWeight": "normal",
+                                              "overflow": "ellipsis"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          "elevation": 1,
+                          "color": "#FFFFFF"
+                        }
+                      },
+                      {
+                        "type": "container",
+                        "height": 165,
+                        "width": 160,
+                        "decoration": {
+                          "color": "#FFFFFF",
+                          "borderColor": "#00000000",
+                          "opacity": 0,
+                          "borderRadius": {
+                            "topRight": 5,
+                            "bottomRight": 5,
+                            "topLeft": 5,
+                            "bottomLeft": 5
+                          }
+                        },
+                        "child": {
+                          "type": "card",
+                          "tag": "goToDetails3",
+                          "action": "https://rappid.ai/api-v2/public/dynamic-screens-details?id=34",
+                          "child": {
+                            "type": "column",
+                            "mainalignment": "spaceBetween",
+                            "crossalignment": "start",
+                            "children": [
+                              {
+                                "type": "padding",
+                                "top": 3,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 110,
+                                  "width": 130,
+                                  "decoration": {
+                                    "color": "#93963c",
+                                    "borderColor": "#00000000",
+                                    "opacity": 1,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "column",
+                                    "mainalignment": "spaceEvenly",
+                                    "crossalignment": "start",
+                                    "children": [
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 100,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "icon",
+                                          "iconData": "favorite_border",
+                                          "size": 20,
+                                          "color": "#9CA0AF"
+                                        }
+                                      },
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "container",
+                                          "height": 68,
+                                          "width": 120,
+                                          "decoration": {
+                                            "color": "#000000",
+                                            "borderColor": "#00000000",
+                                            "opacity": 0,
+                                            "borderRadius": {
+                                              "topRight": 3,
+                                              "bottomRight": 3,
+                                              "topLeft": 3,
+                                              "bottomLeft": 3
+                                            }
+                                          },
+                                          "child": {
+                                            "type": "image",
+                                            "imageUrl": "https://cdn.dummyjson.com/product-images/34/thumbnail.jpg",
+                                            "width": 0,
+                                            "height": 0,
+                                            "fit": "contain"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 38,
+                                  "width": 120,
+                                  "decoration": {
+                                    "color": "#000000",
+                                    "borderColor": "#00000000",
+                                    "opacity": 0,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "text",
+                                    "label": "Plastic Table",
+                                    "textColor": "#9CA0AF",
+                                    "fontSize": 12,
+                                    "fontWeight": "bold",
+                                    "overflow": "ellipsis"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 10,
+                                "child": {
+                                  "type": "row",
+                                  "mainalignment": "spaceBetween",
+                                  "crossalignment": "start",
+                                  "children": [
+                                    {
+                                      "type": "padding",
+                                      "top": 0,
+                                      "bottom": 0,
+                                      "left": 0,
+                                      "right": 0,
+                                      "child": {
+                                        "type": "text",
+                                        "label": "$50",
+                                        "textColor": "#000000",
+                                        "fontSize": 18,
+                                        "fontWeight": "bold",
+                                        "overflow": "ellipsis"
+                                      }
+                                    },
+                                    {
+                                      "type": "container",
+                                      "height": 40,
+                                      "width": 40,
+                                      "decoration": {
+                                        "color": "#00000000",
+                                        "opacity": 0,
+                                        "borderColor": "#00000000"
+                                      },
+                                      "child": {
+                                        "type": "row",
+                                        "mainalignment": "spaceBetween",
+                                        "crossalignment": "start",
+                                        "children": [
+                                          {
+                                            "type": "icon",
+                                            "iconData": "star_border",
+                                            "size": 20,
+                                            "color": "#9CA0AF"
+                                          },
+                                          {
+                                            "type": "padding",
+                                            "top": 3,
+                                            "bottom": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "child": {
+                                              "type": "text",
+                                              "label": "4.8",
+                                              "textColor": "#9CA0AF",
+                                              "fontSize": 12,
+                                              "fontWeight": "normal",
+                                              "overflow": "ellipsis"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          "elevation": 1,
+                          "color": "#FFFFFF"
+                        }
+                      },
+                      {
+                        "type": "container",
+                        "height": 165,
+                        "width": 160,
+                        "decoration": {
+                          "color": "#FFFFFF",
+                          "borderColor": "#00000000",
+                          "opacity": 0,
+                          "borderRadius": {
+                            "topRight": 5,
+                            "bottomRight": 5,
+                            "topLeft": 5,
+                            "bottomLeft": 5
+                          }
+                        },
+                        "child": {
+                          "type": "card",
+                          "tag": "goToDetails3",
+                          "action": "https://rappid.ai/api-v2/public/dynamic-screens-details?id=35",
+                          "child": {
+                            "type": "column",
+                            "mainalignment": "spaceBetween",
+                            "crossalignment": "start",
+                            "children": [
+                              {
+                                "type": "padding",
+                                "top": 3,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 110,
+                                  "width": 130,
+                                  "decoration": {
+                                    "color": "#93963c",
+                                    "borderColor": "#00000000",
+                                    "opacity": 1,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "column",
+                                    "mainalignment": "spaceEvenly",
+                                    "crossalignment": "start",
+                                    "children": [
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 100,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "icon",
+                                          "iconData": "favorite_border",
+                                          "size": 20,
+                                          "color": "#9CA0AF"
+                                        }
+                                      },
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "container",
+                                          "height": 68,
+                                          "width": 120,
+                                          "decoration": {
+                                            "color": "#000000",
+                                            "borderColor": "#00000000",
+                                            "opacity": 0,
+                                            "borderRadius": {
+                                              "topRight": 3,
+                                              "bottomRight": 3,
+                                              "topLeft": 3,
+                                              "bottomLeft": 3
+                                            }
+                                          },
+                                          "child": {
+                                            "type": "image",
+                                            "imageUrl": "https://cdn.dummyjson.com/product-images/35/thumbnail.jpg",
+                                            "width": 0,
+                                            "height": 0,
+                                            "fit": "contain"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "container",
+                                  "height": 38,
+                                  "width": 120,
+                                  "decoration": {
+                                    "color": "#000000",
+                                    "borderColor": "#00000000",
+                                    "opacity": 0,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "text",
+                                    "label": "3 DOOR PORTABLE",
+                                    "textColor": "#9CA0AF",
+                                    "fontSize": 12,
+                                    "fontWeight": "bold",
+                                    "overflow": "ellipsis"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 10,
+                                "child": {
+                                  "type": "row",
+                                  "mainalignment": "spaceBetween",
+                                  "crossalignment": "start",
+                                  "children": [
+                                    {
+                                      "type": "padding",
+                                      "top": 0,
+                                      "bottom": 0,
+                                      "left": 0,
+                                      "right": 0,
+                                      "child": {
+                                        "type": "text",
+                                        "label": "$41",
+                                        "textColor": "#000000",
+                                        "fontSize": 18,
+                                        "fontWeight": "bold",
+                                        "overflow": "ellipsis"
+                                      }
+                                    },
+                                    {
+                                      "type": "container",
+                                      "height": 40,
+                                      "width": 40,
+                                      "decoration": {
+                                        "color": "#00000000",
+                                        "opacity": 0,
+                                        "borderColor": "#00000000"
+                                      },
+                                      "child": {
+                                        "type": "row",
+                                        "mainalignment": "spaceBetween",
+                                        "crossalignment": "start",
+                                        "children": [
+                                          {
+                                            "type": "icon",
+                                            "iconData": "star_border",
+                                            "size": 20,
+                                            "color": "#9CA0AF"
+                                          },
+                                          {
+                                            "type": "padding",
+                                            "top": 3,
+                                            "bottom": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "child": {
+                                              "type": "text",
+                                              "label": "4.8",
+                                              "textColor": "#9CA0AF",
+                                              "fontSize": 12,
+                                              "fontWeight": "normal",
+                                              "overflow": "ellipsis"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          "elevation": 1,
+                          "color": "#FFFFFF"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

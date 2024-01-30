@@ -1,0 +1,294 @@
+{
+  "type": "scaffold",
+  "backgroundColor": "#00000000",
+  "body": {
+    "type": "container",
+    "height": 800,
+    "width": 500,
+    "decoration": {
+      "color": "backGroundColor2",
+      "opacity": 1,
+      "borderRadius": {
+        "topRight": 0,
+        "bottomRight": 0,
+        "topLeft": 0,
+        "bottomLeft": 0
+      }
+    },
+    "child": {
+      "type": "listview",
+      "scrollDirection": "vertical",
+      "children": [
+        {
+          "type": "stickyHeader",
+          "header": {
+            "type": "padding",
+            "top": 30,
+            "bottom": 0,
+            "left": 10,
+            "right": 10,
+            "child": {
+              "type": "container",
+              "height": 60,
+              "width": 500,
+              "decoration": {
+                "color": "#000000",
+                "opacity": 0,
+                "borderColor": "#00000000",
+                "borderRadius": {
+                  "topRight": 20,
+                  "bottomRight": 20,
+                  "topLeft": 20,
+                  "bottomLeft": 20
+                }
+              },
+              "child": {
+                "type": "row",
+                "mainalignment": "spaceBetween",
+                "crossalignment": "start",
+                "children": [
+                  {
+                    "type": "text",
+                    "label": "Furniture",
+                    "textColor": "textColor1",
+                    "fontSize": 20,
+                    "fontWeight": "bold"
+                  }
+                ]
+              }
+            }
+          },
+          "content": {
+            "type": "column",
+            "mainalignment": "spaceBetween",
+            "crossalignment": "start",
+            "children": [
+              {
+                "type": "padding",
+                "top": 0,
+                "bottom": 0,
+                "left": 15,
+                "right": 0,
+                "child": {
+                  "type": "container",
+                  "height": 800,
+                  "width": 360,
+                  "decoration": {
+                    "color": "#FFFFFF",
+                    "borderColor": "#00000000",
+                    "opacity": 0,
+                    "borderRadius": {
+                      "topRight": 5,
+                      "bottomRight": 5,
+                      "topLeft": 5,
+                      "bottomLeft": 5
+                    }
+                  },
+                  "child": {
+                    "type": "listview",
+                    "scrollDirection": "vertical",
+                    "children": [
+                      {
+                        "type": "container",
+                        "height": 250,
+                        "width": 160,
+                        "decoration": {
+                          "color": "#FFFFFF",
+                          "borderColor": "#00000000",
+                          "opacity": 0,
+                          "borderRadius": {
+                            "topRight": 5,
+                            "bottomRight": 5,
+                            "topLeft": 5,
+                            "bottomLeft": 5
+                          }
+                        },
+                        "child": {
+                          "type": "card",
+                          "tag": "goToDetails3",
+                          "action": "https://rappid.ai/api-v2/public/dynamic-screens-details?id=31",
+                          "id": 55,
+                          "child": {
+                            "type": "column",
+                            "mainalignment": "spaceAround",
+                            "crossalignment": "start",
+                            "children": [
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 10,
+                                "child": {
+                                  "type": "container",
+                                  "height": 160,
+                                  "width": 350,
+                                  "decoration": {
+                                    "color": "cardColor",
+                                    "borderColor": "#00000000",
+                                    "opacity": 1,
+                                    "borderRadius": {
+                                      "topRight": 3,
+                                      "bottomRight": 3,
+                                      "topLeft": 3,
+                                      "bottomLeft": 3
+                                    }
+                                  },
+                                  "child": {
+                                    "type": "column",
+                                    "mainalignment": "spaceEvenly",
+                                    "crossalignment": "center",
+                                    "children": [
+                                      {
+                                        "type": "padding",
+                                        "top": 0,
+                                        "bottom": 0,
+                                        "left": 10,
+                                        "right": 0,
+                                        "child": {
+                                          "type": "row",
+                                          "mainalignment": "end",
+                                          "crossalignment": "start",
+                                          "children": [
+                                            {
+                                              "type": "icon",
+                                              "iconData": "favorite_border",
+                                              "size": 20,
+                                              "color": "#9CA0AF"
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "type": "container",
+                                        "height": 110,
+                                        "width": 220,
+                                        "decoration": {
+                                          "color": "#93963c",
+                                          "borderColor": "#00000000",
+                                          "opacity": 1,
+                                          "borderRadius": {
+                                            "topRight": 3,
+                                            "bottomRight": 3,
+                                            "topLeft": 3,
+                                            "bottomLeft": 3
+                                          }
+                                        },
+                                        "child": {
+                                          "type": "padding",
+                                          "top": 0,
+                                          "bottom": 0,
+                                          "left": 0,
+                                          "right": 0,
+                                          "child": {
+                                            "type": "image",
+                                            "imageUrl": "https://cdn.dummyjson.com/product-images/31/thumbnail.jpg",
+                                            "fit": "cover"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 0,
+                                "child": {
+                                  "type": "text",
+                                  "label": "Mornadi Velvet Bed",
+                                  "textColor": "textColor2",
+                                  "fontSize": 12,
+                                  "fontWeight": "bold"
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 10,
+                                "right": 10,
+                                "child": {
+                                  "type": "row",
+                                  "mainalignment": "spaceBetween",
+                                  "crossalignment": "start",
+                                  "children": [
+                                    {
+                                      "type": "padding",
+                                      "top": 0,
+                                      "bottom": 0,
+                                      "left": 0,
+                                      "right": 0,
+                                      "child": {
+                                        "type": "text",
+                                        "label": "$40",
+                                        "textColor": "textColor1",
+                                        "fontSize": 18,
+                                        "fontWeight": "bold"
+                                      }
+                                    },
+                                    {
+                                      "type": "container",
+                                      "height": 40,
+                                      "width": 40,
+                                      "decoration": {
+                                        "color": "#00000000",
+                                        "opacity": 0,
+                                        "borderColor": "#00000000"
+                                      },
+                                      "child": {
+                                        "type": "row",
+                                        "mainalignment": "spaceBetween",
+                                        "crossalignment": "start",
+                                        "children": [
+                                          {
+                                            "type": "icon",
+                                            "iconData": "star_border",
+                                            "size": 20,
+                                            "color": "#9CA0AF"
+                                          },
+                                          {
+                                            "type": "padding",
+                                            "top": 3,
+                                            "bottom": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "child": {
+                                              "type": "text",
+                                              "label": "4.8",
+                                              "textColor": "textColor2",
+                                              "fontSize": 12,
+                                              "fontWeight": "normal"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          "elevation": 1,
+                          "color": "#FFFFFF"
+                        }
+                      },
+                      {
+                        "type": "sizedBox",
+                        "height": 150,
+                        "width": 0
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -12,9 +12,7 @@ import 'package:rappid_poc/UI/detailsScreen/detailsScreen.dart';
 import 'package:rappid_poc/UI/homeScreen/homeScreen.dart';
 import 'package:rappid_poc/UI/signInScreen/signInScreen.dart';
 import 'package:rappid_poc/UI/signUpScreen/signUpScreeen.dart';
-import 'package:rappid_poc/UI/splashScreen/splashScreen.dart';
 import 'package:rappid_poc/Utils/customIcons.dart';
-import 'package:rappid_poc/commonScreen.dart';
 import 'package:rappid_poc/jsonController/jsonData.dart';
 import 'package:rappid_poc/widgets/CustomPageView.dart';
 import 'package:rappid_poc/widgets/custom_button.dart';
@@ -30,7 +28,6 @@ import 'package:dropdown_button2/dropdown_button2.dart';
 import 'package:sliver_snap/sliver_snap.dart';
 import 'package:badges/badges.dart' as badges;
 import 'package:sticky_headers/sticky_headers.dart';
-import 'package:draggable_home/draggable_home.dart';
 
 
 
@@ -257,6 +254,20 @@ class _BuildWidgetState extends State<BuildWidget> {
           width: width,
           height: height,
           fit: fit,
+        );
+
+      case "gridView":
+        return GridView(
+          scrollDirection: widgetData["scrollDirection"] == "horizontal"
+              ? Axis.horizontal
+              : Axis.vertical,
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: widgetData["crossAxisCount"],
+            mainAxisExtent: widgetData["mainAxisExtent"].toDouble(),
+            mainAxisSpacing: widgetData["mainAxisSpacing"].toDouble(),
+            crossAxisSpacing: widgetData["crossAxisSpacing"].toDouble(),
+          ),
+          children:buildChildren(widgetData["children"], context),
         );
 
 

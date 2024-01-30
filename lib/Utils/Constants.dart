@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 
 class Constants {
 
-  static const BASE_URL = "https://rappid.ai/api-v2/public/";
+
+  static const BASE_URL = "https://rappid.ai/api-v2/public/dynamic-theme/";
   static const USER_LOGIN = "user-login";
  // static const SPLASH_SCREEN = "dynamic-screens?screen=1&ui_type=S1";
  // static const SPLASH_SCREEN = "dynamic-screens";

@@ -1,0 +1,337 @@
+{
+  "type": "scaffold",
+  "backgroundColor": "#00000000",
+  "body": {
+    "type": "container",
+    "height": 800,
+    "width": 500,
+    "decoration": {
+      "color": "primaryBackgroundColor",
+      "opacity": 1,
+      "borderRadius": {
+        "topRight": 0,
+        "bottomRight": 0,
+        "topLeft": 0,
+        "bottomLeft": 0
+      }
+    },
+    "child": {
+      "type": "listview",
+      "scrollDirection": "vertical",
+      "children": [
+        {
+          "type": "stickyHeader",
+          "header": {
+            "type": "padding",
+            "top": 30,
+            "bottom": 0,
+            "left": 10,
+            "right": 10,
+            "child": {
+              "type": "container",
+              "height": 60,
+              "width": 500,
+              "decoration": {
+                "color": "#000000",
+                "opacity": 0,
+                "borderColor": "#00000000",
+                "borderRadius": {
+                  "topRight": 20,
+                  "bottomRight": 20,
+                  "topLeft": 20,
+                  "bottomLeft": 20
+                }
+              },
+              "child": {
+                "type": "row",
+                "mainalignment": "spaceBetween",
+                "crossalignment": "start",
+                "children": [
+
+                {
+                  "type": "icon",
+                  "iconData": "grid",
+                  "size": 20,
+                  "color": "#9CA0AF"
+                },
+
+                  {
+                    "type": "text",
+                    "label": "Furniture",
+                    "textColor": "tirtaryTextColor",
+                    "fontSize": 20,
+                    "fontWeight": "bold"
+                  },
+
+                  {
+                  "type": "icon",
+                  "iconData": "cart",
+                  "size": 20,
+                  "color": "#9CA0AF"
+                 }
+                ]
+              }
+            }
+          },
+          "content": {
+            "type": "column",
+            "mainalignment": "spaceBetween",
+            "crossalignment": "start",
+            "children": [
+           {
+              "type": "container",
+              "height": 300,
+              "width": 400,
+              "decoration": {
+                "color": "#FFFFFF",
+                "opacity": 0.5,
+                "borderColor": "00000000",
+                "borderRadius": {
+                  "topRight": 25,
+                  "bottomRight": 25,
+                  "topLeft": 25,
+                  "bottomLeft": 25
+                }
+              },
+              "child": {
+                "type": "pageView",
+                "activeColor": "#C4C4C4",
+                "children": [
+                  {
+                    "type": "container",
+                    "height": 50,
+                    "width": 50,
+                    "child": {
+                      "type": "image",
+                      "imageUrl": "https://cdn.dummyjson.com/product-images/34/1.jpg",
+                      "width": 200,
+                      "height": 200,
+                      "fit": "contain"
+                    },
+                    "decoration": {
+                      "color": "#000000",
+                      "opacity": 0,
+                      "borderColor": "00000000",
+                      "borderRadius": {
+                        "topRight": 25,
+                        "bottomRight": 25,
+                        "topLeft": 25,
+                        "bottomLeft": 25
+                      }
+                    }
+                  },
+                  {
+                    "type": "container",
+                    "height": 50,
+                    "width": 50,
+                    "child": {
+                      "type": "image",
+                      "imageUrl": "https://cdn.dummyjson.com/product-images/34/2.jpg",
+                      "width": 200,
+                      "height": 200,
+                      "fit": "contain"
+                    },
+                    "decoration": {
+                      "color": "#000000",
+                      "opacity": 0,
+                      "borderColor": "00000000",
+                      "borderRadius": {
+                        "topRight": 25,
+                        "bottomRight": 25,
+                        "topLeft": 25,
+                        "bottomLeft": 25
+                      }
+                    }
+                  },
+                  {
+                    "type": "container",
+                    "height": 50,
+                    "width": 50,
+                    "child": {
+                      "type": "image",
+                      "imageUrl": "https://cdn.dummyjson.com/product-images/34/3.jpg",
+                      "width": 200,
+                      "height": 200,
+                      "fit": "contain"
+                    },
+                    "decoration": {
+                      "color": "#000000",
+                      "opacity": 0,
+                      "borderColor": "00000000",
+                      "borderRadius": {
+                        "topRight": 25,
+                        "bottomRight": 25,
+                        "topLeft": 25,
+                        "bottomLeft": 25
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+
+            {
+            "type": "resizeContainer",
+            "height": 450.0,
+            "width": 400.0,
+            "decoration": {
+              "color": "primaryColor",
+              "opacity": 1.0,
+              "borderRadius": {
+                "topRight": 30,
+                "bottomRight": 0.0,
+                "topLeft": 30,
+                "bottomLeft": 0
+              }
+            },
+            "child": {
+              "type": "column",
+              "mainalignment": "spaceEvenly",
+              "crossalignment": "start",
+              "children": [
+
+                {
+                  "type": "padding",
+                  "top": 0.0,
+                  "bottom": 0.0,
+                  "left": 20.0,
+                  "right": 0.0,
+                  "child":
+                  {
+                    "type": "text",
+                    "label": "Sign In",
+                    "textColor": "primaryTextColor",
+                    "fontSize": 26,
+                    "fontWeight": "bold"
+                  }
+                },
+                 {
+              "type": "padding",
+              "top": 0,
+              "bottom": 0,
+              "left": 20,
+              "right": 0,
+              "child": {
+                "type": "text",
+                "label": "V﻿ery good quality plastic table for multi purpose now in reasonable price",
+                "textColor": "secondaryTextColor",
+                "fontSize": 12,
+                "fontWeight": "normal"
+              }
+            },
+
+             {
+                  "type": "padding",
+                  "top": 0.0,
+                  "bottom": 0.0,
+                  "left": 20.0,
+                  "right": 0.0,
+                  "child":
+                  {
+                    "type": "text",
+                    "label": "\$50",
+                    "textColor": "primaryTextColor",
+                    "fontSize": 26,
+                    "fontWeight": "bold"
+                  }
+                },
+
+             {
+              "type": "padding",
+              "top": 0,
+              "bottom": 0,
+              "left": 20,
+              "right": 20,
+              "child": {
+                "type": "buttonContainer",
+                "height": 50,
+                "width": 400,
+                "child": {
+                  "type": "padding",
+                  "top": 0,
+                  "bottom": 0,
+                  "left": 10,
+                  "right": 10,
+                  "child": {
+                    "type": "row",
+                    "mainalignment": "spaceBetween",
+                    "crossalignment": "start",
+                    "children": [
+                      {
+                        "type": "padding",
+                        "top": 15,
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 10,
+                        "child": {
+                          "type": "text",
+                          "label": "Add To Cart",
+                          "textColor": "primaryTextColor",
+                          "fontSize": 14,
+                          "fontWeight": "Bold"
+                        }
+                      },
+
+                      {
+                        "type": "padding",
+                        "top": 3,
+                        "bottom": 0,
+                        "left": 60,
+                        "right": 0,
+                        "child": {
+                          "type": "container",
+                          "height": 40,
+                          "width": 40,
+                          "child": {
+                            "type": "center",
+                            "child": {
+                              "type": "iconButton",
+                              "child": {
+                                "type": "icon",
+                                "iconData": "cart",
+                                "color": "#000000",
+                                "size": 16
+                              },
+                              "tag": ""
+                            }
+                          },
+                          "decoration": {
+                            "color": "#FFFFFF",
+                            "opacity": 1,
+                            "borderRadius": {
+                              "topRight": 25,
+                              "bottomRight": 25,
+                              "topLeft": 25,
+                              "bottomLeft": 25
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                "tag": "goToCart3",
+                "decoration": {
+                  "color": "buttonColor",
+                  "opacity": 1,
+                  "borderColor": "00000000",
+                  "borderRadius": {
+                    "topRight": 25,
+                    "bottomRight": 25,
+                    "topLeft": 25,
+                    "bottomLeft": 25
+                  }
+                }
+              }
+            }
+
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

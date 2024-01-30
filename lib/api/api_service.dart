@@ -54,5 +54,9 @@ abstract class ApiService {
 
 
 
+
+
+
+
 //@Query("?ui_type=UBER") String uiType);
 }
